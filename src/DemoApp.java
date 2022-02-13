@@ -7,12 +7,12 @@ public class DemoApp {
         // to comment the line control + /
 
         //typy danych
-        System.out.print("hello world Im trying for 2h already to push you");
-        System.out.print(10);
-        System.out.print(10.6);
-        System.out.print('a');
-        System.out.print(true);
-        System.out.print(false);
+        System.out.println("hello world Im trying for 2h already to push you");
+        System.out.println(10);
+        System.out.println(10.6);
+        System.out.println('a');
+        System.out.println(true);
+        System.out.println(false);
 
 
     }
