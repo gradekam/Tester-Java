@@ -18,8 +18,17 @@ public class DemoApp {
         int number10 = 10;
         System.out.println(number10);
 
+        //byte
+        //short
+        //int
+        //long 10000000000L
+
+
         double numbercoma = 10.6;
         System.out.println(numbercoma);
+
+        //float
+        //double - domyśnie
 
         String someText = "bla";
         System.out.println(someText);
@@ -33,6 +42,30 @@ public class DemoApp {
         boolean falseValue = false;
         System.out.println(falseValue);
 
+
+        //operatory matematyczne
+        // + - * /
+        // 10/4 = 2 bo liczba całkowita
+        // właściwe 10.0/4.0 = 2.5
+        //albo nadanie zmiennych double i wtedy winik juz też double
+
+        //operatory porównania
+
+        int numOne = 1;
+        int numTwo = 2;
+        System.out.println(numOne > numTwo);
+        System.out.println(numOne < numTwo);
+        System.out.println(numOne == numTwo);
+        System.out.println(numOne != numTwo);
+
+
+        //operatory logiczne
+        //  || - lub
+        System.out.println(numOne > numTwo || numOne == 1);
+
+        // && - oraz
+
+        System.out.println(numOne < numTwo && numTwo == 2);
 
 
     }
